@@ -1,0 +1,11 @@
+3/8/2024 11:41:19 PM : Getting values method started.
+3/8/2024 11:41:19 PM : Getting values method successfully finished.
+3/8/2024 11:41:33 PM : Getting values method started.
+3/8/2024 11:41:33 PM : Getting values method successfully finished.
+3/8/2024 11:41:39 PM : Getting values method started.
+3/8/2024 11:41:39 PM : Getting values method successfully finished.
+3/8/2024 11:41:49 PM : Getting values method started.
+3/8/2024 11:41:49 PM : Getting values method successfully finished.
+3/8/2024 11:47:52 PM : Failed to return value from property for specified type (DateTime) because it is incompatible with actual property type (Bool)
+3/8/2024 11:47:58 PM : Failed to return value from property for specified type (DateTime) because it is incompatible with actual property type (Bool)
+3/8/2024 11:48:06 PM : Failed to return value from property for specified type (DateTime) because it is incompatible with actual property type (Bool)

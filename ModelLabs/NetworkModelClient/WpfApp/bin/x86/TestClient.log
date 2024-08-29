@@ -1,0 +1,21 @@
+3/7/2024 10:10:06 PM : Getting extent values for all DMS types started.
+3/7/2024 10:10:06 PM : Getting extent values for all DMS types failed for type EQUIPMENTCONTAINER.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000100000001. Unknown property id = EQUIPMENT_AGGREGATE for entity (GID = 0x0000000100000001). 
+3/7/2024 10:28:24 PM : Getting extent values for all DMS types started.
+3/7/2024 10:28:24 PM : Getting extent values for all DMS types failed for type EQUIPMENTCONTAINER.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000100000001. Unknown property id = EQUIPMENT_AGGREGATE for entity (GID = 0x0000000100000001). 
+3/7/2024 10:37:19 PM : Getting extent values for all DMS types started.
+3/7/2024 10:37:19 PM : Getting extent values for all DMS types failed for type EQUIPMENTCONTAINER.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000100000001. Unknown property id = EQUIPMENT_AGGREGATE for entity (GID = 0x0000000100000001). 
+3/7/2024 11:15:12 PM : Getting extent values for all DMS types started.
+3/7/2024 11:15:13 PM : Getting extent values for all DMS types failed for type EQUIPMENTCONTAINER.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000100000001. Unknown property id = EQUIPMENT_AGGREGATE for entity (GID = 0x0000000100000001). 
+3/7/2024 11:15:28 PM : Getting extent values for all DMS types started.
+3/7/2024 11:15:29 PM : Getting extent values for all DMS types failed for type EQUIPMENTCONTAINER.
+	IteratorNext failed. Iterator ID = 2. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000100000001. Unknown property id = EQUIPMENT_AGGREGATE for entity (GID = 0x0000000100000001). 
+3/8/2024 9:47:04 AM : Getting extent values for all DMS types started.
+3/8/2024 9:47:04 AM : Getting extent values for all DMS types failed for type EQUIPMENTCONTAINER.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000100000001. Unknown property id = EQUIPMENT_AGGREGATE for entity (GID = 0x0000000100000001). 
+3/8/2024 8:36:14 PM : Getting extent values for all DMS types started.
+3/8/2024 8:36:14 PM : Getting extent values for all DMS types failed for type EQUIPMENTCONTAINER.
+	IteratorNext failed. Iterator ID = 1. Resources to fetch count = 1000. Failed to get next set of ResourceDescription iterators. Failed to get values for entity with GID = 0x0000000100000001. Unknown property id = EQUIPMENT_AGGREGATE for entity (GID = 0x0000000100000001). 

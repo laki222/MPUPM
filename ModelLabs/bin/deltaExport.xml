@@ -1,0 +1,66 @@
+﻿<delta id="0">
+  <operations>
+    <operation type="insert">
+      <ResourceDescriptions count="5">
+        <ResourceDescription>
+          <id gid="0x00000001ffffffff" type="EQUIPMENTCONTAINER" />
+          <Properties>
+            <Property id="IDOBJ_ALIAS" value="EQUIPMENTCONTAINER" />
+            <Property id="IDOBJ_MRID" value="EQUIPMENTCONTAINER_1" />
+            <Property id="IDOBJ_NAME" value="EquipmentContainer" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000002ffffffff" type="CONNECTIVITYNODE" />
+          <Properties>
+            <Property id="IDOBJ_ALIAS" value="CONNECTIVITYNODE" />
+            <Property id="IDOBJ_MRID" value="CONNECTIVITYNODE_1" />
+            <Property id="IDOBJ_NAME" value="ConnectivityNode" />
+            <Property id="CONNECTIVITYNODE_DESCRIPTION" value="Connectivity nodes are points where terminals of AC conducting equipment are connected together with zero impedance" />
+            <Property id="CONNECTIVITYNODE_CONTAINER" value="0x00000001ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000003ffffffff" type="SWITCH" />
+          <Properties>
+            <Property id="IDOBJ_ALIAS" value="SWITCH" />
+            <Property id="IDOBJ_MRID" value="SWITCH_1" />
+            <Property id="IDOBJ_NAME" value="Switch" />
+            <Property id="EQUIPMENT_AGGREGATE" value="1" />
+            <Property id="EQUIPMENT_NORMALLYINSERVICE" value="1" />
+            <Property id="EQUIPMENT_CONTAINER" value="0x00000001ffffffff" />
+            <Property id="SWITCH_NORMALOPEN" value="1" />
+            <Property id="SWITCH_RETAINED" value="1" />
+            <Property id="SWITCH_SWITCHONCOUNT" value="25" />
+            <Property id="SWITCH_SWITCHONDATE" value="633450501300000000" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000004ffffffff" type="TERMINAL" />
+          <Properties>
+            <Property id="IDOBJ_ALIAS" value="TERMINAL" />
+            <Property id="IDOBJ_MRID" value="TERMINAL_1" />
+            <Property id="IDOBJ_NAME" value="Terminal" />
+            <Property id="TERMINAL_CONNECTED" value="1" />
+            <Property id="TERMINAL_PHASES" value="s1" />
+            <Property id="TERMINAL_SEQNUM" value="120" />
+            <Property id="TERMINAL_NODE" value="0x00000002ffffffff" />
+            <Property id="TERMINAL_CONDUCTINGEQUIMPMENT" value="0x00000003ffffffff" />
+          </Properties>
+        </ResourceDescription>
+        <ResourceDescription>
+          <id gid="0x00000005ffffffff" type="MEASUREMENT" />
+          <Properties>
+            <Property id="IDOBJ_ALIAS" value="MEASUREMENT" />
+            <Property id="IDOBJ_MRID" value="MEASUREMENT_1" />
+            <Property id="IDOBJ_NAME" value="Measurement" />
+            <Property id="MEASUREMENT_TYPE" value="type1" />
+            <Property id="MEASUREMENT_PHASES" value="B" />
+            <Property id="MEASUREMENT_PSR" value="0x00000001ffffffff" />
+            <Property id="MEASUREMENT_TERMINAL" value="0x00000004ffffffff" />
+          </Properties>
+        </ResourceDescription>
+      </ResourceDescriptions>
+    </operation>
+  </operations>
+</delta>

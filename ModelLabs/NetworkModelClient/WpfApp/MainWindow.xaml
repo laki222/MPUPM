@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="NetworkModelClient" Height="450" Width="600" ResizeMode="NoResize">
+    <Grid Margin="15">
+        <TabControl>
+            <TabItem Header="Get Values">
+
+                <Grid Margin="0,0,-1,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="27*"/>
+                        <ColumnDefinition Width="56*"/>
+                        <ColumnDefinition Width="90*"/>
+                        <ColumnDefinition Width="233*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="labelResourceId"  Content="GID:" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="250" Margin="10,5,0,0" Height="23" Grid.ColumnSpan="4" />
+                    <ComboBox x:Name="comboBoxIdSelect" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="250" Margin="10,33,0,0" Initialized="comboBoxIdSelect_Initialized" SelectionChanged="comboBoxIdSelect_SelectionChanged" Grid.ColumnSpan="4"/>
+                    <Button x:Name="btnGetValues" Background="LightGray" Content="Get Values" HorizontalAlignment="Left" Margin="99.7,33,0,0" VerticalAlignment="Top" Width="123" Click="btnGetValues_Click" Grid.Column="3" Height="22"/>
+                    <ListBox x:Name="listBoxProperties" Background="LightGray" HorizontalAlignment="Left" Width="545" Margin="10,95,0,10" SelectionMode="Multiple" Initialized="listBoxProperties_Initialized" Grid.ColumnSpan="4" />
+                </Grid>
+
+
+
+            </TabItem>
+            <TabItem Header="Get Extent Values" />
+            <TabItem Header="Get Realted Values" />
+        </TabControl>
+        <TextBlock x:Name="txtBlockOutput" Foreground="LightGray" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="424" Height="503" Margin="416,57,0,0" Background="#2F384D"/>
+    </Grid>
+</Window>

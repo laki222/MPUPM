@@ -1,0 +1,18 @@
+3/8/2024 8:42:45 PM : Starting Network Model Serivice...
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000100000001).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000200000001).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000300000001).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000400000001).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000500000001).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000100000002).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000200000002).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000300000002).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000400000002).
+3/8/2024 8:42:45 PM : Inserting entity with GID (0000000500000002).
+3/8/2024 8:42:46 PM : The communication object, System.ServiceModel.ServiceHost, cannot be used for communication because it is in the Faulted state.
+3/8/2024 8:42:46 PM : NetworkModelService failed.
+3/8/2024 8:42:46 PM :    at System.ServiceModel.Channels.CommunicationObject.Close(TimeSpan timeout)
+   at System.ServiceModel.Channels.CommunicationObject.Close()
+   at FTN.Services.NetworkModelService.NetworkModelService.CloseHosts() in C:\Users\Lazar\Desktop\Modeli\Vezba8\8b NMS klase - IReference\ModelLabs\NetworkModelService\NetworkModelService.cs:line 96
+   at FTN.Services.NetworkModelService.NetworkModelService.Dispose() in C:\Users\Lazar\Desktop\Modeli\Vezba8\8b NMS klase - IReference\ModelLabs\NetworkModelService\NetworkModelService.cs:line 34
+   at FTN.Services.NetworkModelService.Program.Main(String[] args) in C:\Users\Lazar\Desktop\Modeli\Vezba8\8b NMS klase - IReference\ModelLabs\NetworkModelService\ServiceHost\NetworkModelServiceSelfHost\Program.cs:line 30
